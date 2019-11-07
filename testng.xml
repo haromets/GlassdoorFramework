@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Glassdoor Automation Test Suite" verbose="1" >
+    <listeners>
+        <listener class-name="com.glassdoor.util.ExtentReporterNG" />
+    </listeners>
+    <test name="Glassdoor Test Cases" >
+        <classes>
+            <class name="com.glassdoor.tests.LoginTest"></class>
+            <class name="com.glassdoor.tests.HomePageTest"></class>
+            <class name="com.glassdoor.tests.JobSearchResultPageTest"></class>
+        </classes>
+    </test>
+</suite>
