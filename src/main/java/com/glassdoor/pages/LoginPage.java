@@ -27,8 +27,8 @@ public class LoginPage extends TestBase {
     @FindBy(xpath = "//div[contains(text(),'The username and password you specified are invalid.  Please try again.')]")
     WebElement failedMsg;
 
-    @FindBy(xpath = "//div[contains(text(),'You seem to be having some trouble remembering your password... Please check your email for a password reset link!')]")
-    WebElement failedMsgInvalidPassword;
+//    @FindBy(xpath = "//div[contains(text(),'You seem to be having some trouble remembering your password... Please check your email for a password reset link!')]")
+//    WebElement failedMsgInvalidPassword;
 
 
     public LoginPage(){
@@ -47,9 +47,9 @@ public class LoginPage extends TestBase {
        return isAuthFailed(failedMsg, userName, password);
     }
 
-    public boolean isAuthFailedInvalidNameInvalidPas(String userName, String password){
-        return isAuthFailed(failedMsgInvalidPassword, userName, password);
-    }
+//    public boolean isAuthFailedInvalidNameInvalidPas(String userName, String password){
+//        return isAuthFailed(failedMsgInvalidPassword, userName, password);
+//    }
 
     public boolean isAuthFailed(WebElement webElement, String userName, String password){
         signIn.click();
