@@ -27,8 +27,8 @@ public class LoginPage extends TestBase {
     @FindBy(xpath = "//div[contains(text(),'The username and password you specified are invalid.  Please try again.')]")
     WebElement failedMsg;
 
-//    @FindBy(xpath = "//div[contains(text(),'You seem to be having some trouble remembering your password... Please check your email for a password reset link!')]")
-//    WebElement failedMsgInvalidPassword;
+    @FindBy(xpath = "//div[contains(text(),'You seem to be having some trouble remembering your password... Please check your email for a password reset link!')]")
+    WebElement failedMsgInvalidPassword;
 
 
     public LoginPage(){
@@ -44,19 +44,19 @@ public class LoginPage extends TestBase {
     }
 
     public boolean isAuthFailedValidNameInvalidPas(String userName, String password){
-       return isAuthFailed(failedMsg, userName, password);
+       return isAuthFailed(failedMsg, failedMsgInvalidPassword, userName, password);
     }
 
-//    public boolean isAuthFailedInvalidNameInvalidPas(String userName, String password){
-//        return isAuthFailed(failedMsgInvalidPassword, userName, password);
-//    }
+    public boolean isAuthFailedInvalidNameInvalidPas(String userName, String password){
+        return isAuthFailed(failedMsg, failedMsgInvalidPassword, userName, password);
+    }
 
-    public boolean isAuthFailed(WebElement webElement, String userName, String password){
+    public boolean isAuthFailed(WebElement webElement1, WebElement webElement2, String userName, String password){
         signIn.click();
         userNameEl.sendKeys(userName);
         passwordEl.sendKeys(password);
         signInSecondBtn.click();
-        wait.until(ExpectedConditions.visibilityOf(webElement));
-        return webElement.isDisplayed();
+        wait.until(ExpectedConditions.or(ExpectedConditions.visibilityOf(webElement1), ExpectedConditions.visibilityOf(webElement2)));
+        return (webElement1.isDisplayed() || webElement2.isDisplayed());
     }
 }

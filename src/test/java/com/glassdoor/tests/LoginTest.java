@@ -22,10 +22,10 @@ public class LoginTest extends TestBase {
     }
 
 
-//    @Test
-//    public void testInvalidAccount2() {
-//        Assert.assertTrue(loginPage.isAuthFailedInvalidNameInvalidPas(TestUtil.INVALID_USER_NAME, TestUtil.INVALID_PASSWORD));
-//    }
+    @Test
+    public void testInvalidAccount2() {
+        Assert.assertTrue(loginPage.isAuthFailedInvalidNameInvalidPas(TestUtil.INVALID_USER_NAME, TestUtil.INVALID_PASSWORD));
+    }
 
     @Test
     public void testInvalidAccount() {
