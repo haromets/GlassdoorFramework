@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="87c12042-afb4-4674-87e9-ff02fe7eaf66" name="Default Changelist" comment="uncomment  methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/glassdoor/base/cdgbhdfghf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/glassdoor/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/glassdoor/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/props.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/props.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/JobSearchResultPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/JobSearchResultPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glassdoor/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/glassdoor/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/glassdoor/util/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/glassdoor/util/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/props.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/props.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/glassdoor/tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/glassdoor/tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/glassdoor/tests/JobSearchResultPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/glassdoor/tests/JobSearchResultPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/glassdoor/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/glassdoor/tests/LoginTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,44 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="126" lean-forward="true" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/props.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            <state relative-caret-position="524">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="386">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,22 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSearchResultPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="123" column="60" selection-start-line="123" selection-start-column="60" selection-end-line="123" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/util/ExtentReporterNG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="465">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +66,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/JobSearchResultPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSearchResultPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,17 +137,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSerchResultPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/base/cdgbhdfghf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/props.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/util/ExtentReporterNG.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSearchResultPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/props.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/JobSearchResultPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSearchResultPage.java" />
       </list>
     </option>
   </component>
@@ -148,8 +159,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="350" />
-    <option name="y" value="181" />
+    <option name="x" value="410" />
+    <option name="y" value="157" />
     <option name="width" value="2022" />
     <option name="height" value="1074" />
   </component>
@@ -236,6 +247,12 @@
               <item name="GlassdoorFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="GlassdoorFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GlassdoorFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GlassdoorFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -256,6 +273,11 @@
             <path>
               <item name="GlassdoorFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="GlassdoorFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GlassdoorFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GlassdoorFramework" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -268,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573683808966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573701128856" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,8 +320,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JobSearchResultPageTest.testJobEmployerName">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="glassdoor" />
       <extension name="coverage">
         <pattern>
@@ -308,14 +330,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.glassdoor.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.HomePageTest" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testInvalidAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JobSearchResultPageTest.testFirstResultJobTitleLocation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="glassdoor" />
       <extension name="coverage">
         <pattern>
@@ -324,8 +346,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.glassdoor.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.LoginTest" />
-      <option name="METHOD_NAME" value="testInvalidAccount" />
+      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.JobSearchResultPageTest" />
+      <option name="METHOD_NAME" value="testFirstResultJobTitleLocation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -333,7 +355,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testInvalidAccount2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JobSearchResultPageTest.testJobEmployerName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="glassdoor" />
       <extension name="coverage">
         <pattern>
@@ -342,8 +364,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.glassdoor.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.LoginTest" />
-      <option name="METHOD_NAME" value="testInvalidAccount2" />
+      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.JobSearchResultPageTest" />
+      <option name="METHOD_NAME" value="testJobEmployerName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -351,7 +373,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testInvalidAccount3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JobSearchResultPageTest.testValidTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="glassdoor" />
       <extension name="coverage">
         <pattern>
@@ -360,8 +382,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.glassdoor.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.LoginTest" />
-      <option name="METHOD_NAME" value="testInvalidAccount3" />
+      <option name="MAIN_CLASS_NAME" value="com.glassdoor.tests.JobSearchResultPageTest" />
+      <option name="METHOD_NAME" value="testValidTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -369,7 +391,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/pavelaleinik/Downloads/glassdoor/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/bestpol/Documents/Java/GlassdoorFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="glassdoor" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -380,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/pavelaleinik/Downloads/glassdoor/testng.xml" />
-      <item itemvalue="TestNG.LoginTest.testInvalidAccount3" />
-      <item itemvalue="TestNG.LoginTest.testInvalidAccount2" />
-      <item itemvalue="TestNG.LoginTest.testInvalidAccount" />
-      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.JobSearchResultPageTest.testFirstResultJobTitleLocation" />
+      <item itemvalue="TestNG.JobSearchResultPageTest.testValidTitle" />
+      <item itemvalue="TestNG./Users/bestpol/Documents/Java/GlassdoorFramework/testng.xml" />
+      <item itemvalue="TestNG.JobSearchResultPageTest.testJobEmployerName" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.testInvalidAccount2" />
-        <item itemvalue="TestNG./Users/pavelaleinik/Downloads/glassdoor/testng.xml" />
-        <item itemvalue="TestNG.LoginTest.testInvalidAccount" />
-        <item itemvalue="TestNG.LoginTest.testInvalidAccount3" />
+        <item itemvalue="TestNG.JobSearchResultPageTest.testJobEmployerName" />
+        <item itemvalue="TestNG./Users/bestpol/Documents/Java/GlassdoorFramework/testng.xml" />
+        <item itemvalue="TestNG.JobSearchResultPageTest.testValidTitle" />
+        <item itemvalue="TestNG.JobSearchResultPageTest.testFirstResultJobTitleLocation" />
+        <item itemvalue="TestNG.HomePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +432,7 @@
       <workItem from="1573018251661" duration="33592000" />
       <workItem from="1573106272918" duration="259000" />
       <workItem from="1573423767318" duration="3084000" />
-      <workItem from="1573671881708" duration="1874000" />
+      <workItem from="1573671881708" duration="5695000" />
     </task>
     <task id="LOCAL-00001" summary="comment one method">
       <created>1573679761353</created>
@@ -426,49 +448,56 @@
       <option name="project" value="LOCAL" />
       <updated>1573683667070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="uncomment  methods">
+      <created>1573683898257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573683898257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_testInvalidAccount2 - 2019.11.06 at 23h 47m 36s.xml">
-      <configuration name="LoginTest.testInvalidAccount2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_testInvalidAccount - 2019.11.06 at 23h 47m 50s.xml">
+    <history-entry file="LoginTest_testInvalidAccount - 2019.11.13 at 20h 55m 15s.xml">
       <configuration name="LoginTest.testInvalidAccount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_testInvalidAccount2 - 2019.11.06 at 23h 48m 08s.xml">
-      <configuration name="LoginTest.testInvalidAccount2" configurationId="TestNG" />
+    <history-entry file="HomePageTest - 2019.11.13 at 20h 56m 48s.xml">
+      <configuration name="HomePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_pavelaleinik_Downloads_glassdoor_testng_xml - 2019.11.06 at 23h 51m 33s.xml">
-      <configuration name="/Users/pavelaleinik/Downloads/glassdoor/testng.xml" configurationId="TestNG" />
+    <history-entry file="JobSearchResultPageTest_testFirstResultJobTitleLocation - 2019.11.13 at 20h 57m 05s.xml">
+      <configuration name="JobSearchResultPageTest.testFirstResultJobTitleLocation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_pavelaleinik_Downloads_glassdoor_testng_xml - 2019.11.06 at 23h 54m 13s.xml">
-      <configuration name="/Users/pavelaleinik/Downloads/glassdoor/testng.xml" configurationId="TestNG" />
+    <history-entry file="JobSearchResultPageTest_testValidTitle - 2019.11.13 at 21h 03m 43s.xml">
+      <configuration name="JobSearchResultPageTest.testValidTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.11.13 at 15h 21m 34s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="JobSearchResultPageTest_testValidTitle - 2019.11.13 at 21h 04m 25s.xml">
+      <configuration name="JobSearchResultPageTest.testValidTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_testInvalidAccount2 - 2019.11.13 at 15h 24m 24s.xml">
-      <configuration name="LoginTest.testInvalidAccount2" configurationId="TestNG" />
+    <history-entry file="JobSearchResultPageTest_testValidTitle - 2019.11.13 at 21h 06m 04s.xml">
+      <configuration name="JobSearchResultPageTest.testValidTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_testInvalidAccount2 - 2019.11.13 at 15h 26m 10s.xml">
-      <configuration name="LoginTest.testInvalidAccount2" configurationId="TestNG" />
+    <history-entry file="JobSearchResultPageTest_testValidTitle - 2019.11.13 at 21h 08m 35s.xml">
+      <configuration name="JobSearchResultPageTest.testValidTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.11.13 at 15h 26m 55s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="_Users_bestpol_Documents_Java_GlassdoorFramework_testng_xml - 2019.11.13 at 21h 10m 30s.xml">
+      <configuration name="/Users/bestpol/Documents/Java/GlassdoorFramework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.11.13 at 16h 20m 35s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="JobSearchResultPageTest_testJobEmployerName - 2019.11.13 at 21h 11m 35s.xml">
+      <configuration name="JobSearchResultPageTest.testJobEmployerName" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="JobSearchResultPageTest_testJobEmployerName - 2019.11.13 at 21h 12m 25s.xml">
+      <configuration name="JobSearchResultPageTest.testJobEmployerName" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54002000" />
+    <option name="totallyTimeSpent" value="57823000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="350" y="181" width="2022" height="1074" extended-state="0" />
+    <frame x="410" y="157" width="2022" height="1074" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865592" visible="true" weight="0.15454546" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865592" visible="true" weight="0.16868687" />
       <window_info id="Structure" order="1" sideWeight="0.5013441" side_tool="true" weight="0.11854584" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -570,93 +599,6 @@
     <entry file="file://$PROJECT_DIR$/test-output/Glassdoor_Extent.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/JobSearchResultPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/props.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSearchResultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="123" column="60" selection-start-line="123" selection-start-column="60" selection-end-line="123" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/util/ExtentReporterNG.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -667,27 +609,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="525">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/screenshots/testInvalidAccount2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screenshots/testInvalidAccount.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screenshots/testDisplayedText.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="218">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/props.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="126" lean-forward="true" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
+        <state relative-caret-position="386">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nulltestInvalidAccount.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screenshots/testJobEmployerName.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glassdoor/pages/JobSearchResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/glassdoor/tests/JobSearchResultPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
