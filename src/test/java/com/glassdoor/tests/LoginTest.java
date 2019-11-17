@@ -39,18 +39,8 @@ public class LoginTest extends TestBase {
     }
 
     @AfterMethod
-    public void screenShot(ITestResult result) {
-        if (ITestResult.FAILURE == result.getStatus()) {
-            try {
-                TakesScreenshot screenshot = (TakesScreenshot) driver;
-                File src = screenshot.getScreenshotAs(OutputType.FILE);
-                FileUtils.copyFile(src, new File(prop.getProperty("screen.path") + result.getName() + ".png"));
-                System.out.println(prop.getProperty("screen.path") + result.getName() + ".png");
-                System.out.println("Successfully captured a screenshot");
-            } catch (Exception e) {
-                System.out.println("Exception while taking screenshot " + e.getMessage());
-            }
-        }
+    public void tearDown(ITestResult result) {
+        TestUtil.screenShot(result);
         driver.quit();
     }
 }

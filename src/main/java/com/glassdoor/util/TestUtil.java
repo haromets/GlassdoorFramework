@@ -1,6 +1,14 @@
 package com.glassdoor.util;
 
-public class TestUtil {
+import com.glassdoor.base.TestBase;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.testng.ITestResult;
+
+import java.io.File;
+
+public class TestUtil extends TestBase {
 
     public static long EXPLICIT_WAIT = 10;
     public static long IMPLICIT_WAIT = 10;
@@ -40,5 +48,19 @@ public class TestUtil {
             }
         }
         return driverPath;
+    }
+
+    public static void screenShot(ITestResult result) {
+        if (ITestResult.FAILURE == result.getStatus()) {
+            try {
+                TakesScreenshot screenshot = (TakesScreenshot) driver;
+                File src = screenshot.getScreenshotAs(OutputType.FILE);
+                FileUtils.copyFile(src, new File(prop.getProperty("screen.path") + result.getName() + ".png"));
+                System.out.println(prop.getProperty("screen.path") + result.getName() + ".png");
+                System.out.println("Successfully captured a screenshot");
+            } catch (Exception e) {
+                System.out.println("Exception while taking screenshot " + e.getMessage());
+            }
+        }
     }
 }
