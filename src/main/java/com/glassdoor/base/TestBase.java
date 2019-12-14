@@ -25,9 +25,10 @@ public class TestBase {
 
         try {
             prop = new Properties();
-            FileInputStream file =
-                    new FileInputStream(System.getProperty("user.dir")+"/src//main//resources//props.properties");
-            prop.load(file);
+            prop.load(TestBase.class.getClassLoader().getResourceAsStream("props.properties"));
+//            FileInputStream file =
+//                    new FileInputStream(System.getProperty("user.dir")+"/src//main//resources//props.properties");
+//            prop.load(file);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("File not found");

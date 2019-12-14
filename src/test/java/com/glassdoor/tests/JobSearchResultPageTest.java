@@ -39,30 +39,30 @@ public class JobSearchResultPageTest extends TestBase {
         Assert.assertEquals(jobSearchResultPage.getTitle(), title);
     }
 
-    @Test
-    public void TestFirstResultJobTitle() {
-        Assert.assertTrue(jobSearchResultPage.verifyFirstResultJobTitle());
-    }
-
-    @Test
-    public void testFirstResultJobTitleLocation() {
-        Assert.assertTrue(jobSearchResultPage.verifyFirstResultLocation());
-    }
-
-    @Test
-    public void testJobEmployerName() {
-        Assert.assertTrue(jobSearchResultPage.verifyJobEmployerName());
-    }
-
-    @Test
-    public void testTimePosted() {
-        Assert.assertTrue(jobSearchResultPage.verifyPostedTime());
-    }
-
-    @Test
-    public void testSalaryRange() {
-        Assert.assertTrue(jobSearchResultPage.verifySalaryRange());
-    }
+//    @Test
+//    public void TestFirstResultJobTitle() {
+//        Assert.assertTrue(jobSearchResultPage.verifyFirstResultJobTitle());
+//    }
+//
+//    @Test
+//    public void testFirstResultJobTitleLocation() {
+//        Assert.assertTrue(jobSearchResultPage.verifyFirstResultLocation());
+//    }
+//
+//    @Test
+//    public void testJobEmployerName() {
+//        Assert.assertTrue(jobSearchResultPage.verifyJobEmployerName());
+//    }
+//
+//    @Test
+//    public void testTimePosted() {
+//        Assert.assertTrue(jobSearchResultPage.verifyPostedTime());
+//    }
+//
+//    @Test
+//    public void testSalaryRange() {
+//        Assert.assertTrue(jobSearchResultPage.verifySalaryRange());
+//    }
 
     @AfterMethod
     public void tearDown(ITestResult result) {

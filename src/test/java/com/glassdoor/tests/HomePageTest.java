@@ -31,15 +31,15 @@ public class HomePageTest extends TestBase {
         homePage = loginPage.authenticate(TestUtil.VALID_USER_NAME, TestUtil.VALID_PASSWORD);
     }
 
-    @Test
-    public void testValidTitle() {
-        Assert.assertEquals(homePage.getTitle(), title);
-    }
-
-    @Test
-    public void testDisplayedText() {
-        Assert.assertTrue(homePage.verifyDisplayedLogo());
-    }
+//    @Test
+//    public void testValidTitle() {
+//        Assert.assertEquals(homePage.getTitle(), title);
+//    }
+//
+//    @Test
+//    public void testDisplayedText() {
+//        Assert.assertTrue(homePage.verifyDisplayedLogo());
+//    }
 
     @AfterMethod
     public void tearDown(ITestResult result) {

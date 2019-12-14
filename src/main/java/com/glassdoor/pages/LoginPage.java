@@ -12,10 +12,10 @@ public class LoginPage extends TestBase {
     @FindBy(xpath = "//a[contains(text(),' Sign In')]")
     WebElement signIn;
 
-    @FindBy(xpath = "//div[@class='d-flex flex-column modalContents maxh-100pct scrollY w-100pct maxw-modal px-std pt-std pb-0  ']//input[@id='userEmail']")
+    @FindBy(name = "username")
     WebElement userNameEl;
 
-    @FindBy(xpath = "//div[@class='d-flex flex-column modalContents maxh-100pct scrollY w-100pct maxw-modal px-std pt-std pb-0  ']//input[@id='userPassword']")
+    @FindBy(name = "password")
     WebElement passwordEl;
 
     @FindBy(xpath = "//button[contains(text(),'Sign In')]")
